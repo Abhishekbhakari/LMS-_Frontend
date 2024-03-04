@@ -1,5 +1,9 @@
 import { Link } from "react-router-dom";
+
 import HomeLayout from "../Layouts/HomeLayout";
+import HomePageImage from "../assets/images/homePageMainImage.png";
+
+
 
 function HomePage() {
     return (
@@ -23,11 +27,14 @@ function HomePage() {
                             </button>
                         </Link>
                         <Link to= "/contact">
-                            <button className="bg-yellow-500 px-5 py-3 rounded-md font-semibold text-lg cursor-pointer hover:bg-yellow-600 transition-all ease-in-out ">
+                            <button className=" border border-yellow-500 px-5 py-3 rounded-md font-semibold text-lg cursor-pointer hover:bg-yellow-600 transition-all ease-in-out ">
                                 Contact Us
                             </button>
                         </Link>
                     </div>
+                </div>
+                <div className="w-1/2 flex items-center justify-center">
+                    <img src={HomePageImage} alt="homepage image" />
                 </div>
             </div>
         </HomeLayout>

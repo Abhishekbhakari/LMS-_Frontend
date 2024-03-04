@@ -16,11 +16,11 @@ function Footer() {
                     <a className=" hover:text-yellow-500 transition-all ease-in-out duration-300">
                         <BsInstagram/>
                     </a>
-                    <a className=" hover:text-yellow-500 transition-all ease-in-out duration-300">
+                    <a href="https://www.linkedin.com/in/abhishek-bhakari-787722249/" className=" hover:text-yellow-500 transition-all ease-in-out duration-300">
                         <BsLinkedin/>
                     </a>
                     <a className=" hover:text-yellow-500 transition-all ease-in-out duration-300">
-                        <BsTwitterX/>
+                        <BsTwitterX/>              
                     </a>
                 </section>
             </footer>
