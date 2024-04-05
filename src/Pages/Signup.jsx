@@ -18,7 +18,7 @@ function Signup() {
         fullName:"",
         email:"",
         password:"",
-        avatar:""
+        avatar: null
     });
 
     function handleUserInput(e) {
@@ -90,7 +90,7 @@ async function createNewAccount(event) {
             fullName:"",
             email:"",
             password:"",
-            avatar:""
+            avatar: null
         });
         setPreviewImage("");
 
