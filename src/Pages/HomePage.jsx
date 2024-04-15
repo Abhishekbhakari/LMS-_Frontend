@@ -18,6 +18,9 @@ function HomePage() {
                     </h1>
                     <p className="text-xl text-gray-200">
                         We have a large library of courses taught by highly skilled and qualified faculties at
+                        <span className="text-yellow-500 font-bold">
+                                 Coursify
+                            </span>
                     </p>
 
                     <div className="space-x-6"  >
