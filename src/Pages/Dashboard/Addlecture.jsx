@@ -32,6 +32,13 @@ function AddLecture() {
 
     function handleVideo(e) {
         const video = e.target.files[0];
+        const videoSize = video.size
+        const sizeLimit = 50 * 1024 * 1024; // 50 MB
+
+        if (videoSize > sizeLimit) {
+            toast.error("Error: The file size exceeds 50 MB. Please choose a smaller file."); 
+            return;
+        }
         const source = window.URL.createObjectURL(video);
         console.log(source);
         setUserInput({
